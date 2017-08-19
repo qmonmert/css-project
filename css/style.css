@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif Arial, Helvetica, sans-serif;
+    color: #fff;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #191919;
+    color: #fff;
+    font-family: "Adobe Caslon W01",Georgia,serif;
+    font-size: 13px;
+    height: 20px;
+    opacity: 0.6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav span {
+    font-style: italic;
+}
+
+span.right {
+    text-align: right;
+    padding-right: 10px;
+}
+
+#intro {
+    background-image: url('../img/run.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#intro h1 {
+    font-size: 40px;
+    line-height: 1.1;
+}
+
+#intro p {
+    font-size: 20px;
+}
+
+#intro .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: #926239;
+    border: 1px solid #926239;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#section-a {
+    padding: 20px;
+    background: #00b2ca;
+    color: #fff;
+    text-align: center;
+}
+
+#section-b {
+    padding: 20px;
+    background: #152128;
+    color: #008597;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+#section-b ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+a {
+    color: #008597;
+    text-decoration: none;
+}
+
+#section-c {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#section-c .photo {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    text-align: center;
+}
+
+.edt-1 {
+    background-image: url('../img/edt1.jpg');
+}
+
+.edt-2 {
+    background-image: url('../img/edt2.jpg');
+}
+
+.edt-3 {
+    background-image: url('../img/edt3.jpg');
+}
