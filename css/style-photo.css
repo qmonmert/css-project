@@ -72,8 +72,8 @@ body, html {
     background-color: transparent;
 }
 
-/* @media(max-width:568px) {
+@media(max-width:800px) {
     .pimg1, .pimg2, .pimg3, .pimg4 {
         background-attachment: scroll;
     }
-} */
+}
