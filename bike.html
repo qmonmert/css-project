@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Photo | http://quentin.monmert.pagesperso-orange.fr/</title>
+    <title>Bike | http://quentin.monmert.pagesperso-orange.fr/</title>
 
     <link rel="apple-touch-icon" sizes="57x57"   href="img/icons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60"   href="img/icons/apple-icon-60x60.png">
@@ -24,70 +24,40 @@
     <meta name="msapplication-TileImage" content="img/icons/ms-icon-144x144.png">
     <meta name="theme-color"             content="#ffffff">
 
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/animate.css">    
-    <link rel="stylesheet" href="css/style-photo.css">    
+    <link rel="stylesheet" href="css/bike.css">
 </head>
 <body>
+
+    <section id="wrapper" class="skewed">
+
+        <div class="layer bottom">
+            <div class="content-wrap">
+                <div class="content-body">
+                    <h1>Quentin Monmert</h1>
+                    <p>
+                        181kms, 3600mD+, 7h30min d'effort
+                    </p>
+                </div>
+                <img src="img/image-black.jpg">
+            </div>
+        </div>
+
+        <div class="layer top">
+            <div class="content-wrap">
+                <div class="content-body">
+                    <h1>Etape du Tour 2017</h1>
+                    <p>
+                        Côte des Demoiselles Coiffées, Col de Vars, Col d'Izoard
+                    </p>
+                </div>
+                <img src="img/image-white.jpg">
+            </div>
+        </div>
+
+        <div class="handle"></div>
+
+    </section>
     
-    <div class="pimg1 animated bounceInDown">
-        <div class="ptext">
-            <span class="border trans">
-                Etape du Tour 2017
-            </span>
-        </div>
-    </div>
-
-    <section class="section section-light">
-        <h2>Côte des Demoiselles Coiffées</h2>
-        <p>
-            3.9km à 5.2%
-        </p>
-    </section>
-
-    <div class="pimg2">
-        <div class="ptext">
-            <span class="border">
-                181 kms
-            </span>
-        </div>
-    </div>
-
-    <section class="section section-dark">
-        <h2>Col de Vars</h2>
-        <p>
-            9.3km à 7.5%
-        </p>
-    </section>
-
-    <div class="pimg3">
-        <div class="ptext">
-            <span class="border">
-                3600m D+
-            </span>
-        </div>
-    </div>
-
-    <section class="section section-light">
-        <h2>Col d'Izoard</h2>
-        <p>
-            14km à 7.3%
-        </p>
-    </section>
-
-    <div class="pimg4">
-        <div class="ptext">
-            <span class="border trans">
-                7h30min d'effort
-            </span>
-        </div>
-    </div>
-
-    <script>
-        document.querySelector('body').addEventListener("click", function(e) {
-            window.location.href = 'bike.html';
-        });
-    </script>
-
+    <script src="js/bike.js"></script>
 </body>
 </html>
